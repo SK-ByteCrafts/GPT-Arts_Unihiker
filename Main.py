@@ -1,4 +1,6 @@
-#  -*- coding: UTF-8 -*-
+#coding: UTF-8
+#By Hudson Huang 24/5/22
+
 import sys
 sys.path.append("/root/mindplus/.lib/thirdExtension/liao-soruxgpt_01-thirdex")
 import time
