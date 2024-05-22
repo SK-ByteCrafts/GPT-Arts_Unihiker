@@ -42,7 +42,7 @@ def ShengChengTuPian():
     YuYinBoBao()
     headers = {
                 'Content-Type': 'application/json', # 根据需要设置其他header信息
-                'Authorization': 'Bearer sk-juTnWeq8jOpCsRTGLyw1q29bUSJ9OZOnaWAQR52kMR5wq1Gl' # 在这里设置Authorization头部的值
+                'Authorization': 'Bearer Your OpenAI key' # 在这里填入chatgpt key的api值
         }
     data2={
                 "model":"dall-e-3",
@@ -65,9 +65,9 @@ def YuYinBoBao():
 
 
 Board().begin()
-appId = "6ad8c5ba"
-apiKey ="5ef55f835720ffe1d70a14853f876a85"
-apiSecret = "MzdmY2Q2OTgwN2UyZjExYjU4N2ZkZjRh"
+appId = " " #科大讯飞流式转写项目ID
+apiKey =" " #科大讯飞流式转写API KEY
+apiSecret = " " #科大讯飞流式转写APISECRET
 u_gui=GUI()
 u_audio = Audio()
 options = {}
@@ -124,7 +124,7 @@ while True:
         YuYinBoBao()
         headers = {
                     'Content-Type': 'application/json', # 根据需要设置其他header信息
-                    'Authorization': 'Bearer sk-juTnWeq8jOpCsRTGLyw1q29bUSJ9OZOnaWAQR52kMR5wq1Gl' # 在这里设置Authorization头部的值
+                    'Authorization': 'Bearer Your API key' # 在这里设置Authorization头部的值
             }
         data2={
                     "model":"dall-e-3",
